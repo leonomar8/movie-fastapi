@@ -1,0 +1,27 @@
+========================================
+FastAPI + Udemy
+========================================
+Note: The code is in this path D:\DEVOPS\PYTHON\fastapi-postgresql
+
+//Activate virtual environment in my python project folder
+ $ py -m venv venv	//optional  python -m venv env
+ $ venv\Scripts\activate
+
+//you will see this new prompt
+ (env)$ 
+
+
+//Install libraries
+$ pip install fastapi uvicorn
+
+//reload uvicorn each time we save changes to the project
+$ uvicorn main:app --reload
+
+//if port 8000 is busy try this command
+$ uvicorn main:app --reload --port 5000
+
+//Install jwt
+$ pip install PyJWT
+
+//Install SQL Alchemy
+$ pip install SQLAlchemy
